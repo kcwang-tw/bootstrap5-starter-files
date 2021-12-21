@@ -5,23 +5,23 @@
 <h2>標題</h2>
 
 <div class="demo">
-  <練習>h1. Bootstrap heading</練習>
-  <練習>h2. Bootstrap heading</練習>
-  <練習>h3. Bootstrap heading</練習>
-  <練習>h4. Bootstrap heading</練習>
-  <練習>h5. Bootstrap heading</練習>
-  <練習>h6. Bootstrap heading</練習>
+  <h1>h1. Bootstrap heading</h1>
+  <h2>h2. Bootstrap heading</h2>
+  <h3>h3. Bootstrap heading</h3>
+  <h4>h4. Bootstrap heading</h4>
+  <h5>h5. Bootstrap heading</h5>
+  <h6>h6. Bootstrap heading</h6>
 </div>
 
 <h4>不能直接使用 HTML 元素時，可使用 .h1 到 .h6 的類別</h4>
 
 <div class="demo">
-  <p class="練習">h1. Bootstrap heading</p>
-  <p class="練習">h2. Bootstrap heading</p>
-  <p class="練習">h3. Bootstrap heading</p>
-  <p class="練習">h4. Bootstrap heading</p>
-  <p class="練習">h5. Bootstrap heading</p>
-  <p class="練習">h6. Bootstrap heading</p>
+  <p class="h1">h1. Bootstrap heading</p>
+  <p class="h2">h2. Bootstrap heading</p>
+  <p class="h3">h3. Bootstrap heading</p>
+  <p class="h4">h4. Bootstrap heading</p>
+  <p class="h5">h5. Bootstrap heading</p>
+  <p class="h6">h6. Bootstrap heading</p>
 </div>
 
 <h4>
@@ -31,25 +31,25 @@
 <div class="demo">
   <h3>
     Fancy display heading
-    <練習 class="text-muted">With faded secondary text</練習>
+    <small class="text-muted">With faded secondary text</small>
   </h3>
 </div>
 
 <h2>顯示標題</h2>
 
 <div class="demo">
-  <h1 class="練習">Display 1</h1>
-  <h1 class="練習">Display 2</h1>
-  <h1 class="練習">Display 3</h1>
-  <h1 class="練習">Display 4</h1>
-  <h1 class="練習">Display 5</h1>
-  <h1 class="練習">Display 6</h1>
+  <h1 class="display-1">Display 1</h1>
+  <h1 class="display-2">Display 2</h1>
+  <h1 class="display-3">Display 3</h1>
+  <h1 class="display-4">Display 4</h1>
+  <h1 class="display-5">Display 5</h1>
+  <h1 class="display--6">Display 6</h1>
 </div>
 
 <h2>前導主題</h2>
 
 <div class="demo">
-  <p class="練習">
+  <p class="lead">
     This is a lead paragraph. It stands out from regular paragraphs.
   </p>
 </div>
@@ -70,14 +70,14 @@
 <h2>縮寫</h2>
 
 <div class="demo">
-  <p><練習 title="attribute">attr</練習></p>
-  <p><abbr title="HyperText Markup Language" class="練習">加入 initialism</abbr></p> 
+  <p><abbr title="attribute">attr</abbr></p>
+  <p><abbr title="HyperText Markup Language" class="initialism">加入 initialism</abbr></p> 
 </div>
 
 <h2>引用</h2>
 
 <div class="demo">
-  <blockquote class="練習">
+  <blockquote class="blockquote">
     <p>A well-known quote, contained in a blockquote element.</p>
   </blockquote>
 </div>
@@ -85,20 +85,20 @@
 <h4>引用來源</h4>
 
 <div class="demo">
-  <練習>
+  <figure>
     <blockquote class="blockquote">
       <p>A well-known quote, contained in a blockquote element.</p>
     </blockquote>
-    <練習 class="blockquote-footer">
+    <figcaption class="blockquote-footer">
       Someone famous in <cite title="Source Title">Source Title</cite>
-    </練習>
-  </練習>
+    </figcaption>
+  </figure>
 </div>
 
 <h4>對齊</h4>
 
 <div class="demo">
-  <figure class="練習">
+  <figure class="text-center">
     <blockquote class="blockquote">
       <p>A well-known quote, contained in a blockquote element.</p>
     </blockquote>
@@ -109,7 +109,7 @@
 </div>
 
 <div class="demo">
-  <figure class="練習">
+  <figure class="text-end">
     <blockquote class="blockquote">
       <p>A well-known quote, contained in a blockquote element.</p>
     </blockquote>
@@ -123,13 +123,13 @@
 <h4>無樣式</h4>
 
 <div class="demo">
-  <ul class="練習"><!-- 加入 list-unstyled -->
+  <ul class="list-unstyled"><!-- 加入 list-unstyled -->
     <li>This is a list.</li>
     <li>It appears completely unstyled.</li>
     <li>Structurally, it's still a list.</li>
     <li>However, this style only applies to immediate child elements.</li>
     <li>Nested lists:
-      <ul>
+      <ul class="list-unstyled">
         <li>are unaffected by this style</li>
         <li>will still show a bullet</li>
         <li>and have appropriate left margin</li>
@@ -142,10 +142,10 @@
 <h4>行內</h4>
 
 <div class="demo">
-  <ul class="練習">
-    <li class="練習">This is a list item.</li>
-    <li class="練習">And another one.</li>
-    <li class="練習">But they're displayed inline.</li>
+  <ul class="list-inline">
+    <li class="list-inline-item">This is a list item.</li>
+    <li class="list-inline-item">And another one.</li>
+    <li class="list-inline-item">But they're displayed inline.</li>
   </ul>
 </div>
 
